@@ -4,36 +4,27 @@ import '../styles/styles.css';
 
 export default function PersonalInfo(){
 
-const [name, setName] = useState('');
-const [email, setEmail] = useState('');
-const [phone, setPhone] = useState('');
 
-
-
-function handleNameChange(e){
-    setName(e.target.value)
-}
-function handleEmailChange(e){
-    setEmail(e.target.value)
-}
-function handlePhoneChange(e){
-    setPhone(e.target.value)
-}
-
-function toggleDetails(){
-const hideButton = document.getElementById = ("infoLabels")
-const showDetails = document.getElementById = ("hideButton")
-
-hideButton.classList.toggle('expanded');
-showDetails.classList.toggle('hidden');
-}
-
-
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+    
+    
+    
+    function handleNameChange(e){
+        setName(e.target.value)
+    }
+    function handleEmailChange(e){
+        setEmail(e.target.value)
+    }
+    function handlePhoneChange(e){
+        setPhone(e.target.value)
+    }
 return (
     <>
     <div className="nameSection" id="nameSection">
     <div className="input" id="input">
-    <button className="hideButton" id="hideButton" onClick={toggleDetails}>+</button>
+    <button className="hideButton" id="hideButton">+</button>
     <div className="infoSection" id="infoSection">
     <h2>Personal Information</h2> 
    

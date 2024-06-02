@@ -13,7 +13,10 @@ function App() {
   return (
     <>
      <Header />
-    <PersonalInfo />
+    <PersonalInfo 
+
+      
+    />
     <Education />
     <Experience />
   

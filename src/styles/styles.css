@@ -1,0 +1,61 @@
+body {
+    background-color: #e0e1dd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nameSection {
+    display: flex;
+    justify-content: space-between;
+}
+.labels {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+}
+.schoolSection{
+    display: flex;
+    justify-content: space-between;
+
+}
+.output{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding:20px;
+   
+}
+
+.input{
+    background-color: #415a77;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    border-style: double;
+    border-radius: 5%;
+    margin: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: cursive;
+   
+   
+}
+.emailPhone{
+    display: flex;
+    justify-content: space-between;
+    padding-right:40px;
+}
+
+input {
+    width: 100%;
+}
+
+.header {
+    border-bottom: darkgrey;
+    border-style: groove;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}

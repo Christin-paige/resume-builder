@@ -2,9 +2,9 @@ import { useState } from "react";
 import "../styles/styles.css";
 
 export default function PersonalInfo() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
+  const [name, setName] = useState("Christin Martin");
+  const [email, setEmail] = useState("email@email.com");
+  const [phone, setPhone] = useState("123-456-7890");
 
   function handleNameChange(e) {
     setName(e.target.value);

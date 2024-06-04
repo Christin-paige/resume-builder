@@ -2,9 +2,9 @@ import { useState } from "react";
 import "../styles/styles.css";
 
 export default function Education() {
-  const [school, setSchool] = useState("");
-  const [program, setProgram] = useState("");
-  const [degree, setDegree] = useState("");
+  const [school, setSchool] = useState("Really Smart University");
+  const [program, setProgram] = useState("Book Repair Technician");
+  const [degree, setDegree] = useState("Libary Science");
 
   function handleSchoolChange(e) {
     setSchool(e.target.value);
